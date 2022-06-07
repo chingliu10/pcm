@@ -1,0 +1,68 @@
+*{
+    margin : 0;
+    padding:  0;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.right{
+    height: 100vh;
+    background-image: url("/images/golden.jpg");
+    background-position: right bottom;
+}
+
+.formCover {
+    width: 100%;
+    height: auto;
+}
+
+form {
+    margin: 0px auto;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+
+input, select {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid #777;
+    border-radius: 5px;
+}
+
+input, label, select {
+    display: block;
+    width: 100%;
+}
+
+
+button {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    background-color: #27A243;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.link {
+    text-align: center;
+    margin-top: 20px;
+}

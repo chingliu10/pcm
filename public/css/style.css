@@ -1,0 +1,98 @@
+*{
+    padding:  0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+    display: grid;
+    align-items: center;
+    background-image: url("/images/golden.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+
+.container {
+    display: grid;
+    align-items: center;
+    height: 100vh;
+}
+.formCover {
+    margin-top: -100px;
+    height: auto;
+    background-color: rgba(250, 250, 250, 0.8);
+    padding: 25px 0;
+}
+
+form {
+    background-color: white;
+    width: 25%;
+    margin-left: 10%;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 0 5px 1px  rgba(0, 0, 0, 0.3);
+}
+
+
+form hr {
+    margin-top: 15px;
+}
+
+form h3 {
+    color:  rgb(118, 167, 185);
+}
+
+form input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 15px;
+    height: 25px;
+    padding: 5px;
+    outline: none;
+    border: 0;
+    background-color: rgb(233, 239, 253);
+    border-bottom: 1px solid gray;
+}
+
+form input:focus {
+    background-color: rgb(233, 239, 253);
+    outline: none;
+}
+.formActions {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formActions a, button {
+    border-radius: 5px;
+    padding: 5px 10px;
+    color : white;
+}
+
+.formActions a {
+    background-color: rgb(150, 150, 150);
+}
+
+.formActions button {
+    border: 0;
+    background-color: rgb(78 ,189, 78);
+}
+
+.downBar {
+    position: fixed;
+    bottom : 0;
+    top: 98%;
+    left : 0;
+    right: 0;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+}
+
